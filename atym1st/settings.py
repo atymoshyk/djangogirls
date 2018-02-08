@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'atym1st.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': os.environ.get('DATABASE_ENGINE', ''),,
+        'ENGINE': os.environ.get('DATABASE_ENGINE', ''),
         'NAME': os.environ.get('DATABASE_NAME', ''),
         'USER': os.environ.get('DATABASE_USER', ''),
         'PASSWORD': os.environ.get('DATABASE_PASSWORD', ''),
